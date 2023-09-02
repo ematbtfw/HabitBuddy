@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "@react-navigation/native": "^6.1.7",
-    "@react-navigation/stack": "^6.3.17"
+    "@react-navigation/stack": "^6.3.17",
+    "react-redux": "^8.1.2",
+    "redux": "^4.2.1"
   }
 }
