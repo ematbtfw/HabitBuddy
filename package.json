@@ -1,0 +1,16 @@
+{
+  "name": "habitbuddy",
+  "version": "1.0.0",
+  "description": "it is an app to build your Habits.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/stack": "^6.3.17"
+  }
+}
