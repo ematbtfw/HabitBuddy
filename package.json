@@ -1,4 +1,5 @@
 {
+  "type": "commonjs",
   "name": "habitbuddy",
   "version": "1.0.0",
   "description": "it is an app to build your Habits.",
