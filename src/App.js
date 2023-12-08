@@ -1,18 +1,18 @@
-export default Navigation;
+// App.js
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import RegistrationScreen from './src/screens/RegistrationScreen';
-import LoginScreen from './src/screens/LoginScreen';
-import HabitTrackingScreen from './src/screens/HabitTrackingScreen';
-import GoalSettingScreen from './src/screens/GoalSettingScreen';
+import RegistrationScreen from './screens/RegistrationScreen';
+import LoginScreen from './screens/LoginScreen';
+import HabitTrackingScreen from './screens/HabitTrackingScreen';
+import GoalSettingScreen from './screens/GoalSettingScreen';
 
 const Stack = createStackNavigator();
 
-const Navigation = () => {
+const App = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Login">
+      <Stack.Navigator initialRouteName="Registration">
         <Stack.Screen name="Registration" component={RegistrationScreen} />
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="HabitTracking" component={HabitTrackingScreen} />
@@ -22,4 +22,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default App;
