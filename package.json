@@ -5,7 +5,8 @@
   "description": "it is an app to build your Habits.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest" ,
+    "android": "react-native run-android"
   },
   "keywords": [],
   "author": "",
