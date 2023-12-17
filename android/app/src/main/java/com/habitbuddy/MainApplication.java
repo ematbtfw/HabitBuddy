@@ -59,4 +59,8 @@ public class MainApplication extends Application implements ReactApplication {
     }
     ReactNativeFlipper.initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
   }
+    @Override
+    protected String getMainComponentName() {
+        return "com.AmanuelTekeba.habitbuddy.HabitBuddy";
+    }
 }
