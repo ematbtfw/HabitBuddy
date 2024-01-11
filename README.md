@@ -34,3 +34,24 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+Key Features:
+
+Auth
+Organizations / Workspaces
+Board creation
+Unsplash API for random beautiful cover images
+Activity log for entire organization
+Board rename and delete
+List creation
+List rename, delete, drag & drop reorder and copy
+Card creation
+Card description, rename, delete, drag & drop reorder and copy
+Card activity log
+Board limit for every organization
+Stripe subscription for each organization to unlock unlimited boards
+Landing page
+MySQL DB
+Prisma ORM
+shadcnUI & TailwindCSS
