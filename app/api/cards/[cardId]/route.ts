@@ -31,6 +31,7 @@ export async function GET(
         },
       },
     });
+    
 
     return NextResponse.json(card);
   } catch (error) {
